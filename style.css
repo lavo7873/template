@@ -59,7 +59,9 @@ button {
     justify-content: space-evenly;
     grid-template-columns: 390px 400px 300px;
     grid-gap: 20px;
-    border-radius: 12px;
+    border-radius: var(--card_border_radius);
+}
+img.rounded-corners {
+    border-radius: 30px;
   }
-
   
