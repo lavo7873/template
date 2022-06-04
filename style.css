@@ -54,3 +54,12 @@ button {
     padding-left: 0;
     margin-left: -30px;
 }
+.grid-container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 390px 400px 300px;
+    grid-gap: 20px;
+    border-radius: 12px;
+  }
+
+  
