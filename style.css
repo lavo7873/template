@@ -26,9 +26,31 @@ body {
     font-size: 14px;
 }
 
-.menu__item button {
+button {
     border-radius: 8px;
 }
-.nav h1 {
-    font-size: 50px;
+.text-left {
+    font-size: 55px !important;
+    font-weight: bold;
+}
+
+.text-right-top {
+    background: white;
+    color: blue;
+    display: inline;
+    padding: 5px;
+}
+.video {
+    width: 100%;
+    border-radius: 12px;
+}
+.info h3{
+    color: blue;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 70px;
+}
+.info {
+    padding-left: 0;
+    margin-left: -30px;
 }
